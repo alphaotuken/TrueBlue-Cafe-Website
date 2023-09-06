@@ -30,6 +30,11 @@ Windows:
 git clone https://github.com/alphaotuken/truebluecafe-website.git
 ```
 
+### Preview
+
+![Demo](https://github.com/alphaotuken/TrueBlue-Cafe-Website/assets/100890340/0a0b4c26-e487-41d5-8a8f-85db16f7a40c)
+
+
 ### Contact
 
 If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/alphaotuken).
