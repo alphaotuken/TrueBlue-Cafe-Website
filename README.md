@@ -1,6 +1,6 @@
   <h2 align="center">TRUEBLUE CAFE</h2>
 
-  <h4 align="center">Trueblue is a fully responsive coffee website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.</h4>
+  <h4 align="center">Trueblue is a Fully Responsive Coffee Website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.</h4>
 
   <h4 align="center"><a href="https://alphaotuken.otuken.io/truebluecafe-website/"><strong>➥ Live Demo</strong></a></h4>
 
