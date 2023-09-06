@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrueBlue - Order</title>
+</head>
+<body>
+
+   <!-- 
+    - primary meta tags
+  -->
+  <title>TrueBlue - Reviews</title>
+  <meta name="title" content="TrueBlue - Our Menu">
+  <meta name="description" content="Where the real taste begins">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="order.css">
+  <div>
+    <img class="center-image" src="../assets/images/tbcafelogo.png">
+  </div>
+  <h1><i class="fas fa-mug-hot"></i> Order Form</h1>
+    <table class="rwd-table">
+      <tr>
+        <th>Coffee Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td data-th="title">Latte</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty1" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Cappuccino</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty2" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td class="order-title" data-th="title">Espresso</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty3" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td class="order-title" data-th="title">Macchiato</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty4" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td class="order-title" data-th="title">Flat White</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty5" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td class="order-title" data-th="title">Americano</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty6" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td class="order-title" data-th="title">Mint Chocolate</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty7" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td class="order-title" data-th="title">Caramel Breeze</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty8" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td class="order-title" data-th="title">Cookies & Cream</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty9" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Hazelnut Mocha Latte</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty10" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Matcha Cream</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty11" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Vanilla Cream</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty12" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Hot Chocolate</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty13" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+      <tr>
+        <td data-th="title">Red Velvet</td>
+        <td data-th="price">AUD 4.50</td>
+        <td data-th="quantity"><input type="number" id="qty14" value="0" placeholder="Enter Quantity"/></td>
+      </tr>
+    </table>
+    <div class="order-buttons">
+    <p>&larr; Enter The Quantities & Hit Total Cost To Get The Price. &rarr;</p>
+    <p>&larr; Click on Submit Order for placing your valuable order. &rarr;</p>
+
+    <button onclick="total()" class="button" style="padding-left:48px;margin-left:40px;transition: 0.4s;">Total Cost</button>
+    <a href="checkoutorder.html">
+    <button onclick="submit()" class="button" style="transition: 0.4s;">Submit Order</button>
+    <div class="result" id="total_cost" style="margin-left:40px;">AUD 0.00</div>
+
+<p class="credits"><a href="">TrueBlue Cafe</a> managed by <br><a href="">Talo</a></p>
+</div>
+  <!-- 
+    - custom js link
+  -->
+      <script src="order.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@import url("https://use.typekit.net/ivq4uiu.css");
+html {
+  background: #2b2a34;
+  color: #f2f2f2;
+}
+ /* .container {
+  margin-top: 50px;
+} */
+.container .testimonial-wrapper {
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+  max-width: 800px;
+  display: flex;
+  margin: auto;
+}
+.container .testimonial-wrapper:hover {
+  margin-top: -3px;
+}
+.container .testimonial-wrapper .testimonial {
+  background: #493f37;
+  box-shadow: 0 15px 100px #1e1d25;
+  border-radius: 4px;
+  padding: 20px;
+  length: 500px;
+  width: 800px;
+  flex-direction: row;
+  margin: 10px;
+} 
+.container .testimonial-wrapper .testimonial .quote {
+  font-size: 2rem;
+  color: #f2f2f2;
+  z-index: 1;
+  font-family: halyard-text, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0.02rem;
+}
+.container .testimonial-wrapper .testimonial .attribution {
+  color: #d78118;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  padding-top: 15px;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+/* Video */ 
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.video {
+  border-radius: 20px;
+  outline: none;
+}

@@ -1,0 +1,12 @@
+https://codepen.io/enwaara/pen/aZrPKB
+
+Best converter SCSS - CSS:
+https://www.cssportal.com/scss-to-css/
+
+Reviews:
+https://www.learningrobo.com/2022/01/review-card-slider-using-html-css.html
+
+Music Code:
+<audio controls autoplay>
+  <source src="horse.mp3" type="audio/mpeg">
+</audio>
